@@ -19,6 +19,53 @@ ul {
 
 /* En-tête */
 .dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1bb1f2;
+  padding: 15px 20px;
+  color: white;
+  font-size: 1.1em;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-info .vip {
+  background: #f4d03f;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.logout {
+  text-align: right;
+}
+
+.btn-logout {
+  color: white;
+  text-decoration: none;
+  background: #e74c3c;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-logout:hover {
+  background: #c0392b;
+}
+
+/* En-tête */
+.dashboard-header {
   background: #1bb1f2;
   padding: 10px 20px;
   color: white;
