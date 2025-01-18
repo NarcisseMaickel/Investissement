@@ -1,0 +1,124 @@
+/* Style général */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #1bb1f2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* En-tête */
+.dashboard-header {
+  background: #1bb1f2;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header .user-info {
+  font-size: 1.2em;
+}
+
+.dashboard-header .vip {
+  background: #ffcc00;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+/* Section des statistiques */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.stat-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stat-card h2 {
+  font-size: 1.5em;
+  color: #1bb1f2;
+}
+
+.stat-card .stat-link {
+  color: #1bb1f2;
+  font-size: 0.9em;
+  text-decoration: underline;
+}
+
+/* Section des actions */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.btn-primary {
+  background: #1bb1f2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #0a8cd2;
+}
+
+/* Menu principal */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  background: #f9fafb;
+}
+
+.menu-item {
+  background: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item i {
+  font-size: 2em;
+  color: #1bb1f2;
+  margin-bottom: 10px;
+}
+
+.menu-item span {
+  display: block;
+  font-size: 0.9em;
+  color: #333;
+}
